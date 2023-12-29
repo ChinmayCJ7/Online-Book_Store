@@ -9,91 +9,19 @@ li {
     padding: 2px;
     text-align-last: center;
 }
-
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #F1FAFB;
 }
-
 header {
     background-color:#A0E4F1;
     color: #000000;
     padding: 40px;
     text-align: center;
-}
-
-header h1 {
-    margin-bottom: 20px;
-    text-align: center;
-}
-.navbar{
-    display: flex;
-    position:fixed;
-    text-align: center;
-}
-
-nav ul {
-    list-style-type: none;
-    align-content: center;
-}
-
-nav ul li {
-    display:inline-block;
-    margin-right: 30px;
-}
-
-nav ul li a {
-    color: #000000;
-    text-decoration: none;
     
 }
-
-main {
-    padding: 55px;
-}
-
-.book-list {
-    display:flex;
-    justify-content: space-around;
-    flex-wrap:wrap;
-}
-
-.book {
-    width: 300px;
-    margin: 20px;
-    padding: 15px;
-    border: 3px solid #9DC6FF;
-    text-align: center;
-    color: #000000;
-}
-
-.book img {
-    width: 200px;
-    height: 250px;
-    object-fit: cover;
-    margin-bottom: 10px;
-}
-
-.book button {
-    padding: 8px 16px;
-    background-color: #333;
-    color: #ffffff;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.book button:hover {
-    background-color: #ffffff;
-}
-
-
-header{
-
-
-
-header.search-bar {
+search-bar {
     margin-bottom: 10px;
     text-align:justify;
     float:right;
@@ -117,6 +45,51 @@ header.search-bar {
 #searchBtn:hover {
     background-color: #555;
 } 
+
+header h1 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+.navbar{
+    display: flex;
+    position:fixed;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    align-content: center;
+}
+nav ul li {
+    display:inline-block;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    
+    
+}
+main {
+    padding: 55px;
+}
+.aboutsection {
+    display:flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+}
+.profile{
+    width: 300px;
+    margin: 50px;
+    padding:15px;
+    border: 3px solid #9DC6FF;
+    text-align: center;
+    color: #000000;
+}
+.profile img{
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    margin-bottom: 10px;
 }
 footer {
     background-color: #4993FA;
